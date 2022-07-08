@@ -33,30 +33,30 @@ class CalendarStyle {
   final TextStyle unavailableStyle;
 
   /// Background Color of selected day.
-  final Color selectedColor;
+  final Color? selectedColor;
 
   /// Background Color of today.
-  final Color todayColor;
+  final Color? todayColor;
 
   /// Color of event markers placed on the bottom of every day containing events.
-  final Color markersColor;
+  final Color? markersColor;
 
   /// General `Alignment` for event markers.
   /// NOTE: `markersPositionBottom` defaults to `5.0`, so you might want to set it to `null` when using `markersAlignment`.
   final Alignment markersAlignment;
 
   /// `top` property of `Positioned` widget used for event markers.
-  final double markersPositionTop;
+  final double? markersPositionTop;
 
   /// `bottom` property of `Positioned` widget used for event markers.
   /// NOTE: This defaults to `5.0`, so you might occasionally want to set it to `null`.
   final double markersPositionBottom;
 
   /// `left` property of `Positioned` widget used for event markers.
-  final double markersPositionLeft;
+  final double? markersPositionLeft;
 
   /// `right` property of `Positioned` widget used for event markers.
-  final double markersPositionRight;
+  final double? markersPositionRight;
 
   /// Maximum amount of event markers to be displayed.
   final int markersMaxAmount;
