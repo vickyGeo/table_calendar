@@ -246,7 +246,9 @@ class _TableCalendarState extends State<TableCalendar> with SingleTickerProvider
 
   void _selectedDayCallback(DateTime day) {
     if (widget.onDaySelected != null) {
-      widget.onDaySelected!(day, widget.calendarController.visibleEvents[_getEventKey(day)!] ?? []);
+      if(_getEventKey(day) != null){
+        widget.onDaySelected!(day, widget.calendarController.visibleEvents[_getEventKey(day)!] ?? []);
+      }
     }
   }
 
