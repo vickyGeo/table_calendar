@@ -3,7 +3,7 @@
 [![Pub Package](https://img.shields.io/pub/v/table_calendar.svg?style=flat-square)](https://pub.dartlang.org/packages/table_calendar)
 [![Awesome Flutter](https://img.shields.io/badge/Awesome-Flutter-52bdeb.svg?longCache=true&style=flat-square)](https://github.com/Solido/awesome-flutter)
 
-This is a copy of official [table_calendar](https://pub.dev/packages/table_calendar) package. I copied it just to adjust few things and use it. I have no intention of making any type of profit out of this code-source.
+This is a copy of the official [table_calendar](https://pub.dev/packages/table_calendar) package. I copied it just to adjust few things and use it. I have no intention of making any type of profit out of this code-source.
 
 Highly customizable, feature-packed Flutter Calendar with gestures, animations and multiple formats.
 
